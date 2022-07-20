@@ -5,7 +5,7 @@ import { HiMenu } from "react-icons/hi";
 
 const Header = ({ setMobileNav }) => {
   return (
-    <header className="py-6">
+    <header className="py-6" data-aos="fade-down">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
