@@ -9,15 +9,23 @@ const Experience = () => {
         <div className="flex flex-col lg:flex-row lg:space-x-20 min-h-[540px] md:min-h-[400px]">
           {/* images */}
           <div className="flex flex-1 space-x-6 items-center lg:space-x-12 mx-auto">
-            <div className="self-start">
+            <div
+              className="self-start"
+              data-aos="fade-down"
+              data-aos-offset="400"
+            >
               <img src={Img1} alt="" />
             </div>
-            <div className="self-end">
+            <div className="self-end" data-aos="fade-up">
               <img src={Img2} alt="" />
             </div>
           </div>
           {/*  Text*/}
-          <div className="flex flex-col flex-1 items-start justify-center mt-6 lg:mt-0">
+          <div
+            className="flex flex-col flex-1 items-start justify-center mt-6 lg:mt-0"
+            data-aos="fade-left"
+            data-aos-offset="400"
+          >
             <h2 className="text-3xl font-bold mb-6">
               New Experience In Playing Games
             </h2>
